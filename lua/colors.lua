@@ -27,7 +27,7 @@ end
 
 function Color:to_html()
     -- While this isn't elegant, it saves the computer time on doing loops
-    -- and stuff. I don't think we're getting anymore primary colors, are we?
+    -- and stuff. I don't think we're getting any new primary colors, are we?
     local r = decimal_to_hex(self.red)
     local g = decimal_to_hex(self.green)
     local b = decimal_to_hex(self.blue)
